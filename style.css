@@ -1,6 +1,6 @@
 body {
   background: #1a1924;
-  color: #E1E1E6;
+  color: #e1e1e6;
   font-family: "Roboto", sans-serif;
 }
 #app {
@@ -24,7 +24,7 @@ header {
 }
 .informacoes h2 {
   margin-top: 0;
-  margin-bottom: 0;  
+  margin-bottom: 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -40,22 +40,91 @@ header {
   line-height: 14px;
   color: #00b37e;
 }
-header img:nth-child(3){
+header img:nth-child(3) {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
-p{
+p {
   text-align: center;
   margin-top: 26px;
-  
-
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+.bate-papo {
+  padding: 32px 0 0;
+}
+.bate-papo .col-left {
+  width: 50%;
+  margin-top: 30px;
+}
+.bate-papo .col-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+  text-align: right;
+  width: 100%;
+  margin-top: 30px;
+}
+.mensagemEnviada {
+  background: hsla(259, 52%, 48%, 1);
+  padding: 14px;
+  border-radius: 0 8px 8px;
+}
+.nameAndTimeMensagemRecebida {
+  text-align: right;
+  margin-bottom: 10px;
+  font-weight: 400;
 font-size: 12px;
 line-height: 14px;
 /* identical to box height */
 
 text-align: center;
 
+color: #E1E1E6;
+}
+.nameAndTimeMensagemEnviada {
+  margin-bottom: 10px;
+  font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
 
+
+
+color: #E1E1E6;
+}
+.mensagemRecebida {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+
+  padding: 14px;
+  background: hsla(177, 90%, 27%, 1);
+  border-radius: 8px 8px 0;
+}
+.wrapper-button {
+  background: hsla(240, 25%, 21%, 1);
+ 
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 14px 24px;
+  margin-top: 54px;
+}
+.wrapper-button input {
+  border: none;
+  background: transparent;
+  width: 100%;
+ 
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #e1e1e6;
 }
