@@ -9,6 +9,8 @@ body {
   background: #1a1924;
   color: #e1e1e6;
   font-family: "Roboto", sans-serif; 
+  height: 100vh;
+  overflow: hidden;
 }
 :root {
   font-size: 62.5%;
@@ -62,8 +64,14 @@ p {
   text-align: center;
 }
 .bate-papo {
-  padding: 3.2rem 0 0; 
+  height: 60vh;
   
+  padding: 3.2rem 0 0; 
+  overflow-y: scroll;
+  
+}
+.bate-papo::-webkit-scrollbar{
+  display: none;
 }
 .bate-papo .col-left {
   width: 50%;

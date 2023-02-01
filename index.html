@@ -28,65 +28,67 @@
         </div>
         <img src="./assets/close.svg" alt="letra x clique para fechar" />
       </header>
-      <main>
-        <p>Hoje 11:30</p>
-
-        <div class="bate-papo">
-          <div class="col-left">
-            <div class="nameAndTimeMensagemEnviada">Cecilia - 11:30</div>
-            <div class="mensagemEnviada">
-              Tive uma ideia incrível para um projeto! 😍
-            </div>
-          </div>
-
-          <div class="col-right">
-            <div class="nameAndTimeMensagemRecebida">Você - 11:32</div>
-            <div class="mensagemRecebida">Sério? Me conta mais.</div>
-          </div>
-
-          <div class="col-left">
-            <div class="nameAndTimeMensagemEnviada">Cecilia - 11:34</div>
-            <div class="mensagemEnviada">
-              E se a gente fizesse um chat moderno e responsivo em apenas uma
-              semana?
-            </div>
-          </div>
-
-          <div class="col-right">
-            <div class="nameAndTimeMensagemRecebida">Você - 11:36</div>
-            <div class="mensagemRecebida"><strong>#boraCodar! 🚀 </strong></div>
-          </div>
-
-          <div class="col-left">
-            <div class="nameAndTimeMensagemEnviada">Cecilia - 11:30</div>
-            <div class="mensagemEnviada">
-              Tive uma ideia incrível para um projeto! 😍
-            </div>
-          </div>
-
-          <div class="col-right">
-            <div class="nameAndTimeMensagemRecebida">Você - 11:32</div>
-            <div class="mensagemRecebida">Sério? Me conta mais.</div>
-          </div>
-
-          <div class="col-left">
-            <div class="nameAndTimeMensagemEnviada">Cecilia - 11:34</div>
-            <div class="mensagemEnviada">
-              E se a gente fizesse um chat moderno e responsivo em apenas uma
-              semana?
-            </div>
-          </div>
-
-          <div class="col-right">
-            <div class="nameAndTimeMensagemRecebida">Você - 11:36</div>
-            <div class="mensagemRecebida"><strong>#boraCodar! 🚀 </strong></div>
+      <p>Hoje 11:30</p>
+      <div class="bate-papo">
+        <div class="col-left">
+          <div class="nameAndTimeMensagemEnviada">Cecilia - 11:30</div>
+          <div class="mensagemEnviada">
+            Tive uma ideia incrível para um projeto! 😍
           </div>
         </div>
-      </main>
+
+        <div class="col-right">
+          <div class="nameAndTimeMensagemRecebida">Você - 11:32</div>
+          <div class="mensagemRecebida">Sério? Me conta mais.</div>
+        </div>
+
+        <div class="col-left">
+          <div class="nameAndTimeMensagemEnviada">Cecilia - 11:34</div>
+          <div class="mensagemEnviada">
+            E se a gente fizesse um chat moderno e responsivo em apenas uma
+            semana?
+          </div>
+        </div>
+
+        <div class="col-right">
+          <div class="nameAndTimeMensagemRecebida">Você - 11:36</div>
+          <div class="mensagemRecebida"><strong>#boraCodar! 🚀 </strong></div>
+        </div>
+
+        <div class="col-left">
+          <div class="nameAndTimeMensagemEnviada">Cecilia - 11:30</div>
+          <div class="mensagemEnviada">
+            Tive uma ideia incrível para um projeto! 😍
+          </div>
+        </div>
+
+        <div class="col-right">
+          <div class="nameAndTimeMensagemRecebida">Você - 11:32</div>
+          <div class="mensagemRecebida">Sério? Me conta mais.</div>
+        </div>
+
+        <div class="col-left">
+          <div class="nameAndTimeMensagemEnviada">Cecilia - 11:34</div>
+          <div class="mensagemEnviada">
+            E se a gente fizesse um chat moderno e responsivo em apenas uma
+            semana?
+          </div>
+        </div>
+
+        <div class="col-right">
+          <div class="nameAndTimeMensagemRecebida">Você - 11:36</div>
+          <div class="mensagemRecebida"><strong>#boraCodar! 🚀 </strong></div>
+        </div>
+      </div>
+
       <footer class="wrapper-button">
         <input type="text" placeholder="Digite sua mensagem" />
         <img src="./assets/arrow-send.svg" alt="certa para a direita" />
       </footer>
     </div>
+    <script>
+      const messages = document.querySelector(".bate-papo");
+      messages.lastElementChild.scrollIntoView();
+    </script>
   </body>
 </html>
