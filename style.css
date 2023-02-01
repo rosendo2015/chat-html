@@ -17,12 +17,9 @@ body {
 :root {
   font-size: 62.5%;
 }
-#app {
- 
-  padding: 2.4rem 3.2rem;
-  height: 100vh;
-  width: 100vw;
- 
+#app { 
+ width: 100vw;
+ padding: 0 2.4rem;
 }
 header {
   display: flex;
@@ -59,7 +56,7 @@ header img:nth-child(3) {
 }
 p {
   text-align: center;
-  margin-top: 2.6rem;
+  margin: 2.6rem 0;
   font-style: normal;
 
   font-size: 1.2rem;
